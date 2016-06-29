@@ -10,6 +10,7 @@ namespace MyGitProject.Controllers
     {
         public ActionResult Index()
         {
+            var a = "bendy";
             return View();
         }
 
