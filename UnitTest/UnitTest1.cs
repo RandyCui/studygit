@@ -23,7 +23,7 @@ namespace UnitTest
             var bl = new BL.Home();
             var testStr = "as";
             var result = bl.Test(testStr);
-            Assert.AreEqual(true, result, "Right for <=5");
+            Assert.AreEqual(false, result, "Right for <=5");
         }
     }
 }
